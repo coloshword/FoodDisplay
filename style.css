@@ -1,6 +1,6 @@
 .header {
     height: 7vh;
-    background-color: rgba(255,122,139,255);
+    background-color: #27293a;
     position: sticky;
 }
 
@@ -68,7 +68,25 @@ hr:after {
     flex-direction: column;
 }
 
-.w3-card-4,.w3-hover-shadow:hover{
-    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+.displayBox {
     width: 20vw;
+    border-radius: 5px;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    margin:16px;
+    cursor: pointer;
+}
+
+.topRibbon {
+    background-color: rgba(79,134,247);
+    height: 1vh;
+}
+
+.itemBox {
+    display: flex;
+}
+.putFood {
+    /* main box */
+    border-radius: 5px;
+    margin:16px;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 }
